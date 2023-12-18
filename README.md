@@ -29,9 +29,21 @@ git clone https://github.com/LuizLopes18/curso_frontend.git
 ## Commits
 Informação de alteração
 - Após testado todo o seu código
-- - Git add *
+
+- Git add *
 - git commit -m 'mensagem' 
 - git push (enviar autorizações para o repositório)
+- git pull (puxar, trazer alterações do github para a maquina)
 
 ## GitFlow
 Fluxo do Git
+
+### Branchs
+são ramificações / versões paralelas
+
+- main / master (vai para produção, quando o projeto é publicado)
+- develop 
+- DOD Definition of Done: critérios de aceite
+- versionamento 1.0.0
+
+
