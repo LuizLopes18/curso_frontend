@@ -1,0 +1,163 @@
+/* Importando Css de Tabelas  */
+@import 'tabela-modulo-07.css';
+/*
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido 
+	3. PRioriza o estilo específico(com seletores mais próximos)
+*/
+
+html {
+	font-family: sans-serif;
+	color: #333;
+}
+
+p {
+	color: #454545;
+}
+
+header p{
+	color: #fff;
+	font-size: 2rem;
+}
+
+
+/*
+
+	Combinadores
+
+	(espaço) seletor descendente 
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjascentes / que vem logo na sequencia 
+	(~) combinador de elementos irmãos de modo geral / após elementos de referência 
+
+*/
+
+
+header h2{
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #ff0;
+	color: #333;
+}
+
+h2 ~ h5 {
+	font-size: 1,2rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+
+/* Pseudo-elementos : */
+
+a {
+	color: #555555;
+	text-decoration: none;
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+h2:hover {
+	color: #888;
+}
+
+
+/*
+
+	Tipografia
+
+*/
+
+html {
+	font-family: Times New Roman;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1,4rem;
+}
+
+
+li{
+	letter-spacing: .01rem;
+	font-family: sans-serif;
+	line-height: 1,5;ne
+}
+
+h3 {
+	font: italic bold 1,2rem/2 sans-serif;
+}
+
+/* google fonts / boa ferramenta  */
+
+
+/*
+
+	Cores
+
+*/
+
+body {
+	background: url(matrix.png) center top no-repeat #000000;
+}
+
+section {
+	background: rgba(255, 255, 255, .75);
+}
+
+p{
+	color: blue;
+	color: #034589;
+}
+
+header,
+footer {
+	background-color: #034589;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+}
+
+.navegacao {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: .5rem;
+}
+
+.navegacao li a {
+	color: white;
+	font-size: 1.4rem;
+}
+
+.navegacao li:hover {
+	background-color: rgba(150, 150, 200, .5);
+	color: #333333;
+}
+

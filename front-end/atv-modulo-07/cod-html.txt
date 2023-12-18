@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Luiz Lopes Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="layout.css">
+		<link rel="stylesheet" type="text/css" href="modulo_07_exercicio.css">
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front-end - CSS</h2>
+			<p>Aprenda do Zero ao Pro</p>
+			<div><h2>EBAC</h2></div>
+			<h5>Escola Britãnica de Artes Criativas e Tecnologia</h5>
+			<p>Aprenda de modo prático</p>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul class="navegacao">
+					<li><a href="./seu-nome-exercicio-modulo-07/modulo-07.html">Módulo 07</a></li>
+					<li id="primeiro-link"><a href="./seu-nome-exercicio-modulo-07/01-introducao.html">Introdução</a></li>
+					<li><a href="./seu-nome-exercicio-modulo-07/02-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="./seu-nome-exercicio-modulo-07/03-formatacao-de-texto.html">Formatação de Textos</a></li>
+					<li><a href="./seu-nome-exercicio-modulo-07/04-tabelas.html">Tabelas</a></li>
+					<li><a href="./seu-nome-exercicio-modulo-07/05-layouts.html">Layouts</a></li>
+					<li><a href="./seu-nome-exercicio-modulo-07/06-formularios.html">Formulários</a></li>
+				</ul>
+
+			</nav>
+
+			<article>
+
+				<div class="table-container">
+					<h3>Actual vs Target Products Sold through Quarterly comparison Table</h3>
+					<table>
+						<thead>
+							<tr>
+								<th><the>Year: 2020</the></th>
+								<th>Q1</th>
+								<th></th>
+								<th>Q2</th>
+								<th></th>
+								<th>Q3</th>
+								<th></th>
+								<th>Q4</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><tre>Products</tre></td>
+								<td><tre>Actual</tre></td>    <td><tre>Target</tre></td>    
+								<td><tre>Actual</tre></td>    <td><tre>Target</tre></td>    
+								<td><tre>Actual</tre></td>    <td><tre>Target</tre></td>    
+								<td><tre>Actual</tre></td>    <td><tre>Target</tre></td>
+							</tr>
+							<tr>
+								<td><tde>Product A</tde></td>
+								<td>650</td>
+								<td>800</td>
+								<td>800</td>
+								<td>1.000</td>
+								<td>950</td>
+								<td>1.200</td>
+								<td>XX</td>
+								<td>XX</td>
+							</tr>
+							<tr>
+								<td><tde>Product B</tde></td>
+								<td>700</td>
+								<td>800</td>
+								<td>900</td>
+								<td>1.000</td>
+								<td>1.000</td>
+								<td>1.200</td>
+								<td>XX</td>
+								<td>XX</td>
+							</tr>
+							<tr>
+								<td><tde>Product C</tde></td>
+								<td>750</td>
+								<td>800</td>
+								<td>950</td>
+								<td>1.000</td>
+								<td>1.000</td>
+								<td>1.200</td>
+								<td>XX</td>
+								<td>XX</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td><tde>Total Products: </tde></td>
+								<td>2.100</td>
+								<td>2.400</td>
+								<td>2.650</td>
+								<td>3.000</td>
+								<td>3.050</td>
+								<td>3.600</td>
+								<td>XX</td>
+								<td>XX</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+
+			</article>
+
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Luiz</p>
+		</footer>
+
+
+
+	</body>
+</html>

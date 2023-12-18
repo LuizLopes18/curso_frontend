@@ -1,0 +1,159 @@
+/*
+
+Arquivo CSS geral com estilos dos elementos de todas as páginas
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 62.5%; /* equivalente a 10 px */
+}
+
+body {
+	background-color: grey;
+}
+h1, p, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: darkred;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+li a {
+	background-color: white;
+	font-size: 20px;
+}
+
+ul li {
+	font-size: .8em; /* equivalente a 16 px */
+	width: 100%;
+	height: 3rem; /* equivalente a 30px */
+}
+
+p{
+	font-size: 2.4rem; /* equivalente a 16px */
+}
+
+h2 {
+	font-size: 4rem; /* equivalente a 20 px */
+	height: 3rem;
+}
+
+.navegacao{
+	background-color: white;
+	position: relative;
+	top: -20px;
+}
+
+.navegacao2 {
+	position: relative;
+	top: -20px;
+}
+
+.navegacao3 {
+	background-color: white;
+	position: relative;
+	top: -40px;
+}
+
+
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+header h2 {
+	color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+			   
+  background: grey;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  top: 40px;
+  background-color: white;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  background-color: white;
+}
+
+section::after {
+  background: white;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+	color: white;
+	font-size: 30px;
+}
+
+.cima {
+	position: relative;
+	top: -20px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+	    width: 100%;
+	    height: auto;
+  }
+}
+
+/*
+	top/superior (cima)
+	bottom/inferior (baixo)
+	left (esquerda)
+	right (direita)
+*/
+
+div{
+	position: static;
+	position: relative;
+	top: -10px;
+}
+
+label {
+	position: absolute;
+}
+
+.classe, #id, body{
+	/*...*/
+}

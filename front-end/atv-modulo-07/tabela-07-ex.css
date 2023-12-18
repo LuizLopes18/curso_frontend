@@ -1,0 +1,110 @@
+table {
+
+	border: 2px solid;
+	background: #ffffff;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 1rem;
+	size: 1rem;
+
+}
+
+table td {
+	border: 2px solid #757575;
+}
+
+
+
+table tr:nth-child(odd) {
+	background-color: rgba(100, 160, 255, .2);
+}
+
+
+table tbody tr:hover {
+	background-color: rgba(0, 0, 185, .5);
+}
+
+table th,
+table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: right;
+	
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+table thead {
+	background-color: rgba(0, 100, 200, 1.5);
+	color: #ffffff;
+	margin: 0;
+}
+
+table thead th the{
+	padding-right: 10rem;
+	margin-right: 0;
+	font-size: 2.3rem;
+}
+
+table tbody td tre{
+	font-weight: bold;
+	font-size: 2.2rem;
+	padding-left: 6rem;
+	margin-right: -2rem;
+	margin-left: -4rem;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}
+
+.table-container h3 {
+	font-size: 2.7rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+
+}
+
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+
+.table-container tbody td{
+	column-count: 2;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	font-size: 2rem;
+	padding-left: 6rem;
+	margin-right: 4rem;
+	margin-left: 7rem;
+}
+
+.table-container tfoot td {
+	column-count: 2;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	font-weight: bold;
+	font-size: 2.2rem;
+	padding-right: 0rem;
+	padding-left: 7rem;
+}
+
+.table-container thead th{
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	font-weight: bold;
+	font-size: 2.3rem;
+	padding-right: 0rem;
+}
+
+table td tde{
+	margin-right: 0rem;
+	margin-left: 2rem;
+	font-size: 2.2rem;
+}
+
+
+
+
