@@ -1,4 +1,5 @@
 # curso-programador
+#### EBAC
 
 #GIT
 ## Conceitos de versionamento
@@ -23,10 +24,14 @@ https://git-scm.com/
 ## Criar cont no Github
 
 ## Clonar o projeto
+git clone https://github.com/LuizLopes18/curso_frontend.git
 
 ## Commits
 Informação de alteração
 - Após testado todo o seu código
+- - Git add *
+- git commit -m 'mensagem' 
+- git push (enviar autorizações para o repositório)
 
 ## GitFlow
 Fluxo do Git
