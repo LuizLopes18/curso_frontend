@@ -63,6 +63,15 @@ p {
     color: #333;
 }
 
+footer small {
+    font-size: 100%;
+    display: block;
+}
+
+.YFMBDREWGEWl4JqSpltR2w {
+    visibility: hidden !important;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -132,8 +141,9 @@ section article {
     float: left;
     width: 70%;
 }
-footer h5 {
-    color: #ffffff;
+footer {
+    background-color: #254159;
+    display: block;
     font-size: 1.6rem; }
   
                  /* cor da letra do rodape */
