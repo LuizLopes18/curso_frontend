@@ -1,5 +1,4 @@
 # curso-programador
-#### EBAC
 
 #GIT
 ## Conceitos de versionamento
@@ -29,7 +28,6 @@ git clone https://github.com/LuizLopes18/curso_frontend.git
 ## Commits
 Informação de alteração
 - Após testado todo o seu código
-
 - Git add *
 - git commit -m 'mensagem' 
 - git push (enviar autorizações para o repositório)
@@ -46,4 +44,23 @@ são ramificações / versões paralelas
 - DOD Definition of Done: critérios de aceite
 - versionamento 1.0.0
 
+git checkout -b dev (criar oma branch)
+git checkout master (mudar de branch)
 
+
+
+### Merge 
+Mescla de brenchs
+Pode precisar resolver conflitos manualmente 
+
+git merge main
+
+
+### Pull Requests
+Mescla de branchs no repositório 
+Permite code review
+O repositório resolve os conflitos automaticamente
+
+### Configura o GitFlow
+git flow init
+git flow feature start {nome-da-feature} 
