@@ -1,3 +1,4 @@
+
 html {
     font-size: 62.5%;
 }
@@ -63,15 +64,6 @@ p {
     color: #333;
 }
 
-footer small {
-    font-size: 100%;
-    display: block;
-}
-
-.YFMBDREWGEWl4JqSpltR2w {
-    visibility: hidden !important;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -88,11 +80,6 @@ img {
     background-color: #b8c8d6 !important;
 }
 
-#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
-#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
-    color: #385874;
-}
-
 ol {
     margin-left: 30px;
 }
@@ -104,7 +91,6 @@ ol li {
 
 section {
     background-color: #fff;
-    display: block;
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */ 
     padding: 20px;
@@ -112,7 +98,6 @@ section {
 }
 
 section nav {
-    display: block;
     float: left;
     width: 30%;
 }
@@ -137,26 +122,35 @@ nav a:hover {
 }
 
 section article {
-    display: block;
     float: left;
     width: 70%;
 }
-footer {
-    background-color: #254159;
-    display: block;
+footer h5 {
+    color: #ffffff;
     font-size: 1.6rem; }
   
                  /* cor da letra do rodape */
     footer h5 {
-      color: #f80000;
+        background-color: #254159;
+      color: #ffffff;
       box-sizing: border-box;
+      margin: 0rem;
+      padding-bottom: 2rem;
+      padding-top: 38rem;
+      padding-left: 40rem;
     }
+
+footer {
+    background-color: #254159;
+}
 
 
 
 .cognito {
     height: 350px !important;
     overflow: hidden !important;
+    display: inline !important;
+    background-color: #254159 !important;
 }
 
 @media (max-width: 425px) {
